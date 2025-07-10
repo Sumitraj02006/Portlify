@@ -222,8 +222,10 @@ section {
 }
 
 .about-image img {
-    max-width: 100%;
-    border-radius: 10px;
+    width: 250px; /* आप चाहें तो 300px कर सकते हैं */
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%; /* यह इमेज को सर्कुलर बनाता है */
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
     transition: transform var(--transition-speed);
 }
